@@ -6,7 +6,9 @@ import { Switch, Route, Link } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <HomePage />
+  
+        <Route exact path='/' component={HomePage} />
+
     </div>
   );
 }
